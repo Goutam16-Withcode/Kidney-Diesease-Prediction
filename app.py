@@ -76,6 +76,16 @@ st.markdown("""
         border-right: 1px solid #bae6fd;
     }
     
+    /* SIDEBAR TEXT - DARK COLOR */
+    [data-testid="stSidebar"] p,
+    [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] .stMarkdown p,
+    [data-testid="stSidebar"] h1,
+    [data-testid="stSidebar"] h2,
+    [data-testid="stSidebar"] h3 {
+        color: #0c4a6e !important;
+    }
+    
     .stTextInput input:focus, .stNumberInput input:focus, .stSelectbox div[data-baseweb="select"]:focus {
         border-color: #0284c7 !important;
     }
